@@ -37,7 +37,7 @@ Nevertheless, the order of the user stories in each group does not reflect the d
 - As a player, I need to be able to see how many points I have earned throughout the game.
 - As a player, I need to be able to replay a game with the same initial hand as a new game if I desire.
 - As a player, I need to be informed when I run out of letters in my hand.
-- As a player, at the end of a game, I need to be able to know what the optimal outcome of the game* is.
+- As a player, at the end of a game, I need to be able to know what the optimal outcome of the game* is. (*BONUS QUESTION* :trophy: )
 
 *: The optimal outcome of a game is a way to arrange and play the letters in a hand which results in the highest possible points of the game in total. For example, given a new game with an initial hand of "a r e t i i n", a player plays "tin" and "air" sequentially, earning 18 points in total at the end, but the optimal solution is playing "inertia", which the player could instead earn 99 points in total, and there is no other ways to get higher points in total.
 
@@ -50,4 +50,15 @@ Nevertheless, the order of the user stories in each group does not reflect the d
 - As a system administrator, I would like the players to have an enjoyable experience when interacting with the system.
 
 ## Engineering Requirements
-While it might be slightly advantageous if your solution involves technologies/frameworks/programming languages in our tech stack,you are allowed to use any technology/framework/programming language you prefer or are most familiar with. Regardless of which you eventually use, we expect the code to be in high quality.
+While it might be slightly advantageous if your solution involves technologies/frameworks/programming languages in our tech stack:
+- python
+- javascript (es6)
+- typescript
+- golang
+- java
+- groovy
+- docker
+
+you are welcome to use any technology/framework/programming language you prefer or are most familiar with. Regardless of which you eventually use, we expect the code to be in *high quality*.
+
+We also love marrying up engineering excellence with great UX/UI design, demostrating your tenant in frontend work will definitely be a bounus!
