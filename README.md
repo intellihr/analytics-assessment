@@ -24,7 +24,6 @@ Should Have: Missing such requirements can be painful, but the solution is still
 
 Could Have: Such requirements are desirable but less important. This is a show-off zone where you can impress us.
 
-Nevertheless, the order of the user stories in each group does not reflect the degree of importance.
 
 **Must Have**
 - As a player, I need to be able to know the hand when a new game starts.
@@ -37,17 +36,25 @@ Nevertheless, the order of the user stories in each group does not reflect the d
 - As a player, I need to be able to see how many points I have earned throughout the game.
 - As a player, I need to be able to replay a game with the same initial hand as a new game if I desire.
 - As a player, I need to be informed when I run out of letters in my hand.
-- As a player, at the end of a game, I need to be able to know what the optimal outcome of the game* is.
-
-*: The optimal outcome of a game is a way to arrange and play the letters in a hand which results in the highest possible points of the game in total. For example, given a new game with an initial hand of "a r e t i i n", a player plays "tin" and "air" sequentially, earning 18 points in total at the end, but the optimal solution is playing "inertia", which the player could instead earn 99 points in total, and there is no other ways to get higher points in total.
 
 **Could Have**
-- As a player, I would like to be able to see my history of all played games.
 - As a system administrator, I would like to be able to modify the value of each letter before a new game starts.
 - As a system administrator, I would like to be able to modify the list of valid words.
 - As a system administrator, I would like to be able to see a history of all played games.
 - As a system administrator, I would like to be able to see a particular player's history of all played games.
 - As a system administrator, I would like the players to have an enjoyable experience when interacting with the system.
+- As a player, I would like to be able to play the game on a website.
+- As a player, I would like to be able to see my history of all played games.
+- As a player, at the end of a game, I need to be able to know what the optimal outcome of the game* is if I desire. ( **BONUS QUESTION** :trophy: )
+
+*: The optimal outcome of a game is a way to arrange and play the letters in a hand which results in the highest possible points of the game in total. For example, given a new game with an initial hand of "a r e t i i n", a player plays "tin" and "air" sequentially, earning 18 points in total at the end, but the optimal solution is playing "inertia", which the player could instead earn 99 points in total, and there is no other ways to get higher points in total.
 
 ## Engineering Requirements
-While it might be slightly advantageous if your solution involves technologies/frameworks/programming languages in our tech stack,you are allowed to use any technology/framework/programming language you prefer or are most familiar with. Regardless of which you eventually use, we expect the code to be in high quality.
+It might be advantageous if your solution involves technologies/frameworks/programming languages in our tech stack, such as:
+- Python
+- JavaScript (ES6+)
+- TypeScript
+- Golang
+- Docker (make it easy for us to run your code)
+
+However, if there are technologies/frameworks/programming languages which you are passionate about, you are more than welcome to use them in the assessment. Regardless of which you eventually use, we expect the code to be in **high quality**.
