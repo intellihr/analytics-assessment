@@ -27,11 +27,12 @@ Could Have: Such requirements are desirable but less important. This is a show-o
 
 **Must Have**
 * As a player 
+  * I need to be able to start a new game.
   * I need to be able to see my hand when a new game starts.
-  * I need to be able to end the game.
   * I need to be able to submit words constructed from my hand.
-  * I need to be able to know the total number of points I have earned when the game ends.
   * I need to know if my word is invalid.
+  * I need to be able to know the total number of points I have earned when the game ends.
+  * at the end of a game, I need to be able to know what the optimal outcome of the game* was. 
 
 **Should Have**
 * As a player
@@ -39,7 +40,6 @@ Could Have: Such requirements are desirable but less important. This is a show-o
   * I need to be able to see my hand throughout the game.
   * I need to be able to see how many points I earn when I submit a word.
   * I need to be able to see how many points I have earned throughout the game.
-  * I need to be informed when I run out of letters in my hand.
 
 **Could Have**
 * As a system administrator 
@@ -50,7 +50,6 @@ Could Have: Such requirements are desirable but less important. This is a show-o
 * As a player
   * I would like to be able to see my history of all played games.
   * I need to be able to replay a game with the same initial hand as a new game if I desire.
-  * at the end of a game, I need to be able to know what the optimal outcome of the game* is if I desire. ( **BONUS QUESTION** :trophy: )
 
 *: The optimal outcome of a game is a way to arrange and play the letters in a hand which results in the highest possible points of the game in total. For example, given a new game with an initial hand of "a r e t i i n", a player plays "tin" and "air" sequentially, earning 18 points in total at the end, but the optimal solution is playing "inertia", which the player could instead earn 99 points in total, and there is no other ways to get higher points in total.
 
