@@ -46,7 +46,6 @@ Could Have: Such requirements are desirable but less important. This is a show-o
   * I would like to be able to modify the list of valid words.
   * I would like to be able to see a history of all played games.
   * I would like to be able to see a particular player's history of all played games.
-  * I would like the players to have an enjoyable experience when interacting with the system.
 * As a player
   * I would like to be able to see my history of all played games.
   * I need to be able to replay a game with the same initial hand as a new game if I desire.
