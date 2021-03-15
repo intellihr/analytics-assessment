@@ -31,6 +31,7 @@ Could Have: Such requirements are desirable but less important. This is a show-o
   * I need to be able to end the game.
   * I need to be able to submit words constructed from my hand.
   * I need to be able to know the total number of points I have earned when the game ends.
+  * I need to know if my word is invalid.
 
 **Should Have**
 * As a player
